@@ -1115,3 +1115,69 @@ font-family:'Playfair Display',serif;
 .pay-card:hover{
     transform:translateY(-5px);
 }
+/* SHIPPING INFORMATION */
+
+.shipping{
+
+    padding:80px 8%;
+    text-align:center;
+    background:white;
+
+}
+
+.shipping h2{
+
+    font-size:40px;
+    color:#0c3b5e;
+    margin-bottom:20px;
+    font-family:'Playfair Display', serif;
+
+}
+
+.shipping p{
+
+    color:#555;
+    max-width:850px;
+    margin:0 auto 40px;
+
+}
+
+.shipping-box{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+
+}
+
+.ship-card{
+
+    width:300px;
+    background:#f8fbff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+
+}
+
+.ship-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.ship-card h3{
+
+    color:#ff9800;
+    margin-bottom:15px;
+
+}
+
+.ship-card p{
+
+    margin:0;
+    color:#555;
+
+}
