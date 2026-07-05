@@ -1078,3 +1078,40 @@ font-family:'Playfair Display',serif;
     line-height:1.7;
 
 }
+/* PAYMENT METHODS */
+
+.payment{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.payment h2{
+    font-size:40px;
+    color:#0c3b5e;
+    margin-bottom:15px;
+}
+
+.payment p{
+    color:#555;
+    margin-bottom:35px;
+}
+
+.payment-list{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.pay-card{
+    background:white;
+    padding:18px 28px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    font-weight:600;
+    transition:.3s;
+}
+
+.pay-card:hover{
+    transform:translateY(-5px);
+}
