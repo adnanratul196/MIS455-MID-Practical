@@ -1181,3 +1181,52 @@ font-family:'Playfair Display',serif;
     color:#555;
 
 }
+/* ORDER PROCESS */
+
+.order-process{
+
+    padding:80px 8%;
+    text-align:center;
+
+}
+
+.order-process h2{
+
+    font-size:40px;
+    color:#0c3b5e;
+    margin-bottom:40px;
+
+}
+
+.process-box{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+
+}
+
+.step{
+
+    width:300px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+
+}
+
+.step:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.step h3{
+
+    color:#ff9800;
+    margin-bottom:15px;
+
+}
